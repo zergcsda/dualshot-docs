@@ -1,15 +1,74 @@
-<!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>DualShot: Front & Back Cam</title><link rel="stylesheet" href="style.css"><link rel="icon" href="app-icon.png"></head><body>
-<nav><div class="wrap"><a class="brand" href="index.html"><img src="app-icon.png" alt="">DualShot</a>
-<div class="links"><a href="support.html">Support</a><a href="privacy.html">Privacy</a><a href="index_zh.html">中文</a></div></div></nav>
-<main><div class="wrap"><div class="hero"><img src="app-icon.png" alt="DualShot app icon"><h1>Record both sides at once.</h1>
-<p class="lead">DualShot films with your iPhone's front and back cameras together and combines them into one vertical video: the scene in front of you and your reaction, in a single take.</p></div>
-<div class="card"><h2>Features</h2><ul>
-<li>Picture-in-picture or top/bottom split layout</li><li>Swap the main and inset camera, move the inset to any corner</li>
-<li>The live preview matches the final video exactly</li><li>Mirror the front camera, grid overlay, sound on or off</li>
-<li>9:16 video at 1080 × 1920, 30 fps (720p on iPhones that can't run both cameras at 1080p)</li>
-<li>Clips stay on your iPhone. Save to Photos or share when you choose</li>
-<li>No account, no ads, no tracking, nothing uploaded</li></ul></div>
-<p class="muted" style="margin-top:20px">Requires iOS 17 or later and an iPhone that supports multi-camera capture (iPhone XS, iPhone XR or later). Free on the App Store.</p></div></main>
-<footer><div class="wrap">DualShot · <a href="mailto:support@keepsub.com">support@keepsub.com</a></div></footer></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DualShot · Two cameras. One take.</title>
+  <meta name="description" content="Record the scene and your reaction together in one vertical iPhone video.">
+  <meta property="og:title" content="DualShot · Two cameras. One take.">
+  <meta property="og:description" content="Record the scene and your reaction together in one vertical iPhone video.">
+  <meta property="og:image" content="https://zergcsda.github.io/dualshot-docs/app-icon.png">
+  <link rel="alternate" hreflang="en" href="https://zergcsda.github.io/dualshot-docs/index.html">
+  <link rel="alternate" hreflang="zh-Hans" href="https://zergcsda.github.io/dualshot-docs/index_zh.html">
+  <link rel="icon" href="app-icon.png">
+  <link rel="stylesheet" href="home.css">
+</head>
+<body>
+<nav class="top"><div class="wrap">
+  <a class="brand" href="index.html"><img src="app-icon.png" alt="">DualShot</a>
+  <div class="links">
+    <a href="support.html">Support</a>
+    <a href="privacy.html">Privacy</a>
+    <a class="lang" href="index_zh.html" lang="zh-Hans">中文</a>
+  </div>
+</div></nav>
+<main>
+<section class="hero"><div class="wrap">
+  <div>
+    <img class="icon" src="app-icon.png" alt="" width="88" height="88">
+    <h1>Two cameras.<br><span class="accent">One take.</span></h1>
+    <p class="lead">Record the scene and your reaction together in one vertical iPhone video.</p>
+    <div class="actions"><a class="btn primary" href="#how">How it works</a><a class="btn ghost" href="#gallery">See it in action</a></div>
+    <p class="avail">For compatible iPhones with iOS 17 or later.</p>
+  </div>
+  <div class="shots">
+    <img src="media/screen-1.jpg" alt="Picture-in-picture" decoding="async">
+    <img src="media/screen-2.jpg" alt="Split view" decoding="async">
+  </div>
+</div></section>
+<div class="wrap">
+<section class="block" id="how">
+  <h2>How it works</h2>
+  <div class="steps">
+    <article class="step"><h3>Choose a layout</h3><p>Use picture-in-picture or a top-and-bottom split.</p></article>
+    <article class="step"><h3>Frame both views</h3><p>Swap cameras or move the inset to any corner.</p></article>
+    <article class="step"><h3>Record and share</h3><p>Review the clip, save it to Photos or send it from your iPhone.</p></article>
+  </div>
+</section>
+<section class="block">
+  <h2>Features</h2>
+  <div class="grid">
+    <article class="feat"><h3>Live preview</h3><p>See the composition as you record.</p></article>
+    <article class="feat"><h3>Vertical video</h3><p>1080 × 1920 at 30 fps on supported devices, with a 720p fallback.</p></article>
+    <article class="feat"><h3>On-device clips</h3><p>No accounts, ads, tracking or uploads.</p></article>
+  </div>
+</section>
+<section class="block" id="gallery">
+  <h2>See it in action</h2>
+  <div class="gallery">
+    <figure><img src="media/screen-1.jpg" alt="" loading="lazy" decoding="async"><figcaption>Picture-in-picture</figcaption></figure>
+    <figure><img src="media/screen-2.jpg" alt="" loading="lazy" decoding="async"><figcaption>Split view</figcaption></figure>
+    <figure><img src="media/screen-3.jpg" alt="" loading="lazy" decoding="async"><figcaption>Clip review</figcaption></figure>
+  </div>
+</section>
+
+</div>
+</main>
+<footer><div class="wrap">
+  <a href="support.html">Support</a>
+  <a href="privacy.html">Privacy</a>
+  <a href="mailto:support@keepsub.com">support@keepsub.com</a>
+  <span class="sp">© 2026 DualShot</span>
+</div></footer>
+</body>
+</html>
